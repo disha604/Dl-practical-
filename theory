@@ -1,0 +1,41 @@
+### 1. Aim
+To implement a Feedforward Neural Network using TensorFlow and Keras to recognize handwritten digits from 0 to 9.
+
+### 2. Theory
+A Feedforward Neural Network (FNN) is a type of neural network in which data moves in one direction, from input to output.
+
+In this practical, we use the MNIST dataset, which contains handwritten digits from 0 to 9.
+
+The dataset contains 60,000 training images and 10,000 testing images. Each image is of size 28 × 28 pixels.
+
+The images are normalized and converted into 784 features. The model contains two hidden layers with 128 and 64 neurons and an output layer with 10 neurons.
+
+ReLU and Softmax activation functions are used to predict the digits.
+
+### 3. Algorithm
+1. Start the program.
+2. Import the required libraries.
+3. Load the MNIST dataset.
+4. Split the data into training and testing sets.
+5. Normalize the images by dividing by 255.
+6. Flatten the images into 784 features.
+7. Create a Sequential neural network model.
+8. Compile the model using SGD optimizer and loss function.
+9. Train the model for 5 epochs.
+10. Test the model and calculate accuracy.
+11. Plot accuracy and loss graphs.
+12. Save the trained model.
+13. Stop the program.
+
+### 4. Output
+1. Libraries imported successfully.
+2. MNIST dataset loaded successfully.
+3. Training data: (60000, 28, 28).
+4. Testing data: (10000, 28, 28).
+5. Model compiled and trained successfully.
+6. Test accuracy obtained: Approximately 94.75%.
+7. Accuracy and loss graphs displayed successfully.
+8. Model saved successfully.
+
+### 5. Result
+Thus, the Feedforward Neural Network was successfully implemented using the MNIST dataset and achieved approximately 94.75% accuracy.
